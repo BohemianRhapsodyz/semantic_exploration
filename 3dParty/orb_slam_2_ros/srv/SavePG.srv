@@ -1,0 +1,4 @@
+string node_file
+string vert_file
+---
+bool success

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<launch>
+
+    <rosparam file="$(find semantic_octomap)/params/semantic_cloud_matterport.yaml" command="load"/>
+    <node pkg="semantic_octomap" type="semantic_sensor_node.py" name="semantic_cloud" output="screen"/>
+
+    <remap from="/odometry" to="/state_estimation"/>
+    <rosparam file="$(find semantic_octomap)/params/octomap_generator.yaml" command="load"/>
+    <node pkg="semantic_octomap" type="semantic_octomap" name="semantic_octomap" output="screen"/>
+
+
+</launch>

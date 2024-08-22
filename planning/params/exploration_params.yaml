@@ -1,0 +1,18 @@
+planning:
+  footprint:
+    type: 'tricky_circle'
+    inflation_scale: 1.5
+
+  min_frontier_size: 30
+  planning_epsilon: 1.0
+  goal_check_radius: 0.6
+  path_follow_check_radius: 0.6
+  
+  skip_pose: 10000
+  skip_pixel: 400000
+  
+  robot_frame_id: 'vehicle'
+  
+  interpolation:
+    alpha: 1
+    radius: 8.0

@@ -1,0 +1,19 @@
+# Camera intrinsic matrix parameters
+camera:
+  fx: 205.4758
+  fy: 205.4758
+  cx: 320.0
+  cy: 180.0
+
+  width: 640
+  height: 360
+
+semantic_pcl:
+  color_image_topic: "/habitat_camera/color/image"
+  semantic_image_topic: "/habitat_camera/semantic/image"
+  # semantic_image_topic: "/sem"
+  depth_image_topic: "/habitat_camera/depth/image"
+  point_type: 0
+  frame_id: "camera"
+  depth_noise_std: 0.0
+  true_class_prob: 1.0
