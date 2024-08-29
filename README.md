@@ -37,5 +37,9 @@ Preprint coming soon.
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ## Contributors
+<a href="https://github.com/BohemianRhapsodyz/semantic_exploration/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BohemianRhapsodyz/semantic_exploration" />
+</a>  
 
+****
 ![Logo](https://mistlab.ca/images/mistlogo.png)
