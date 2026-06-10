@@ -3,6 +3,9 @@
 <p align = "center">   
   <img  src="docs/sim.png" width=500>
 </p>
+<p align="center">
+  <img src="docs/first_view.gif" width="500" />
+</p>
 
 ### Detected dependencies:
 - ROS Noetic
